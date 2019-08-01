@@ -13,32 +13,6 @@ import pickle
 import sys
 import itertools 
 
-"""
-newfile=open('yanifile.dat','w')
-newfile.write('1 st line blablaaaaaa \n')
-newfile.write('cualquier cosa  \n') 
-newfile.write('cualquier cosa doos \n') 
-newfile.close() 
-
-#-----------------------------------------------
-
-file=open('yanifile.dat','r')
-text_linea1=file.read() 
-text_linea2=file.read()
-text_linea3=file.read()
-
-print(text_linea1)
-print(text_linea2)
-print(text_linea3)
-
-def testfile():
-    file=open('yanifile.dat','r') 
-    return file 
-
-text1=list(testfile())
-text2=list(testfile())
-"""
-#
 file=open('kwh.dat','r')
 yearmonthday=[]; kwh1=[]
 for i in file:
