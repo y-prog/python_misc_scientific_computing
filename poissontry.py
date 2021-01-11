@@ -20,7 +20,7 @@ import random
 dates=(list(range(2005,2020)))
 str_dates = [str(i) for i in dates]
 #+ BK_HSGR + BK_UNEM
-m1 = ols('QN_TOT ~ QN_HSGR + QN_INC + QN_UNEM  ', data = data_crime).fit() #maxiter=1000, method='nm')
+m1 = poisson('QN_TOT ~ QN_HSGR + QN_INC + QN_UNEM  ', data = data_crime).fit() #maxiter=1000, method='nm')
 print (m1.summary())
 Y=data_crime['QN_TOT']
 print(Y)
