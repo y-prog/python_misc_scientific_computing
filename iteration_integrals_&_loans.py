@@ -2,7 +2,6 @@
 """
 @author: digiovanniyani
 """
-#HW1--TASK1------------------------------------------------
 
 from scipy import *
 import numpy as np
@@ -10,7 +9,7 @@ from numpy import array
 from scipy import integrate
 
 """
-#HOMEWORK1---TASK2------------------------------------------------------------
+
 a=0
 b=1
 #n=5000
@@ -70,7 +69,7 @@ lambda x: f(x)
 print(integrate.quad(f, 0, 1))
 """
 """
-#HOMEWORK1---TASK2---------????---------------------------------------------------
+
 
 a=0
 b=1
@@ -109,7 +108,7 @@ print(integrate.quad(f, 0, 1))
 
 """
 
-#HW1--TASK1------------------------------------------------
+
 """
 from scipy import *
 import numpy as np
@@ -157,7 +156,7 @@ def trapezoidal(f,a,b,n):
  
 print(trapezoidal(f,a,b,n))
  
-# Why this?
+
 lambda x: f(x)
  
 c= integrate.quad(f,0,1)
@@ -170,7 +169,7 @@ plt.show()
 
 """
 
-#HOMEWORK-1-----TASK-4-----------------------------------------------------------------
+
 from scipy import *
 import numpy as np
 from numpy import array
@@ -211,8 +210,6 @@ print(round(loan_reminder(10000, 0.05, 1000, 6),3))
 
 
 """
-#HOMEWORK-1-----TASK-5-----------------------------------------------------------------
-def f(balance,r,A,n):
         r=5.0
         A=1000.0
         n=20
