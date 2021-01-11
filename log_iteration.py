@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Yani Di Giovanni
-"""
+
+
 
 from scipy import *
 import numpy as np
